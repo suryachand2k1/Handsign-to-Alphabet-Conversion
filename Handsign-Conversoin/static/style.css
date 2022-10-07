@@ -1,0 +1,38 @@
+body{
+	background-color: blanchedalmond;
+}
+.header{
+	background-color: wheat;
+}
+.header h1{
+	padding-left: 450px;
+	font-size: 30px;
+	display: inline-block;
+	margin: 10px;
+}
+.header #image1{
+	padding: 10px;
+	padding-top: 15px;
+	width: 35px;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+.container {
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: normal;
+}
+.container #heading{
+	font-family: Georgia, serif;
+	font-size: 30px;
+}
+.container #heading a{
+	color: blueviolet;
+	text-decoration: none;
+}
+.container img{
+	width: 250px;
+	padding-left: 40%;
+	display: inline-block;
+}

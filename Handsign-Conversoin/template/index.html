@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+	<title>A Silent Voice</title>
+</head>
+<body>
+	<div class="main">
+		<div class='header'>
+			<a href="{{url_for('index')}}"><img src="{{url_for('static',filename='download.jpg')}}"id='image1'></a>
+			<h1>Sign Language to English Translator</h1>
+		</div>
+		<div class='container'>
+			<p>
+				<div id="heading">
+					Text to ASL Generator Software : <a href="{{url_for('application')}}" target="_blank">Want to try?</a>
+				</div>
+				<br><br> American Sign Language (ASL) is a natural language. It is the primary sign language used by the deaf and people with hearing impairment in the many countries across the world.<br><br>American Sign Language is one of the most popular sign languages around the world. Although it contains the same alphabets as English, it is not a subset of the English language. Sentence formation or the sequence of words in a sentence is different in ASL as compared to English because of its unique grammar rules. ASL is considered to be a descendant of French Sign Language that is also influenced by Martha's Vineyard Sign Language and some other local sign languages. ASL uses the one-hand <b>fingerspelling</b> method for the English Alphabet.<br><br>This tool easily converts English text into sign language symbols.<br><br>
+				<img src="{{url_for('static',filename='download.png')}}"><br>
+				This tool will be very useful for both teaching and learning American sign language. Translation of text to sign language is also be given as a task during sign language study session. This tool can easily produce the correct answers and because the visual stays on screen, users can follow the hand movements at their own pace.
+			</p>
+		</div>
+		<div class='footer'>
+		</div>
+	</div>
+</body>
+</html>
