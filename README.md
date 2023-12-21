@@ -21,7 +21,7 @@ This project aims to provide a voice for those with speech and hearing impairmen
 - Tensorflow, OpenCV, NumPy, Matplotlib, PIL, Keras, Flask
 
 ## Achievements
-- Achieved 97.3% accuracy on our dataset.
+- Achieved 97.3% accuracy on our dataset but will generally be a bit lower for unseen data.
 - Enhanced predictions for symbols with similar appearances.
 - Future upgrades include facial expressions and body language recognition.
 
